@@ -209,7 +209,7 @@ def menu():
                     pickle.dump(UserNames, outfile)
                 print(UserNames)
 
-                with open("times.pickle", "wb") as outfile:
+                with open("Prototypes/times.pickle", "wb") as outfile:
                     pickle.dump(UserTimes, outfile)
                 print(UserTimes)
 
